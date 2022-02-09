@@ -1,0 +1,7 @@
+.error {
+  height: 50vh;
+}
+.error h1 {
+  font-size: 50px;
+  color: crimson;
+}
