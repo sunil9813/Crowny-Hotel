@@ -36,8 +36,9 @@
   padding: 15px 30px;
   word-spacing: 5px;
 }
-.image-heading button label {
+.image-heading a {
   color: #31b675;
+  cursor: pointer;
 }
 .image-heading span {
   text-transform: capitalize;

@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "react-router-dom"
 //import Sdata from "./Sdata"
 
-const Cards = ({ item: { id, image, title, desc } }) => {
+const Cards = ({ item: { id, image, title, sidepara, desc, paraImage_one, paraImage_two } }) => {
   return (
     <>
       <div className='items'>

@@ -38,7 +38,7 @@ const Home = ({ slides }) => {
         })}
       </section>
 
-      <section className='form'>
+      <section className='slide-form'>
         <div className='container'>
           <h2>Enjoy Your Holiday</h2>
           <span> Search and Book Hotel</span>

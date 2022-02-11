@@ -74,3 +74,23 @@
 .features h1 span {
   color: #31b675;
 }
+@media screen and (max-width: 768px) {
+  .features .flex_space,
+  .aboutCard {
+    flex-direction: column;
+  }
+  .aboutCard .image::after,
+  .aboutCard .image::before,
+  .aboutCard .control-btn::before {
+    display: none;
+  }
+  .aboutCard .row {
+    width: 100%;
+  }
+  .aboutCard .image {
+    margin-top: 50px;
+  }
+  .aboutCard img {
+    width: 100%;
+  }
+}

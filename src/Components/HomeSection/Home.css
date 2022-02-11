@@ -33,10 +33,10 @@
   transform: scale(1.08);
 }
 /*--------form-----------*/
-.form h2 {
+.slide-form h2 {
   margin-top: 30px;
 }
-.form {
+.slide-form {
   position: absolute;
   top: 30%;
   left: 10%;
@@ -46,14 +46,28 @@
   border-radius: 5px;
   color: white;
 }
-.form input {
+.slide-form input {
   margin-top: 20px;
 }
-.form .flex_space input:nth-child(odd) {
+.slide-form .flex_space input:nth-child(odd) {
   margin-right: 20px;
 }
-.form .submit {
+.slide-form .submit {
   background: #31b675;
   color: white;
 }
 /*--------form-----------*/
+@media screen and (max-width: 768px) {
+  .slider {
+    height: 65vh;
+  }
+  .slide img {
+    height: 65vh;
+  }
+  .slide-form {
+    left: 5%;
+    top: 32%;
+    width: 90%;
+    height: 55vh;
+  }
+}

@@ -42,6 +42,11 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
+              <Link to='/testimonial' onClick={closeMobileMenu}>
+                Testimonial
+              </Link>
+            </li>
+            <li>
               <Link to='/contact' onClick={closeMobileMenu}>
                 Contact Us
               </Link>
@@ -76,7 +81,7 @@ const Navbar = () => {
 
           <div className='contact flex_space '>
             <div className='box flex_space'>
-              <div className='icon'>
+              <div className='icons'>
                 <i class='fal fa-clock'></i>
               </div>
               <div className='text'>
@@ -85,7 +90,7 @@ const Navbar = () => {
               </div>
             </div>
             <div className='box flex_space'>
-              <div className='icon'>
+              <div className='icons'>
                 <i class='fas fa-phone-volume'></i>
               </div>
               <div className='text'>
@@ -94,7 +99,7 @@ const Navbar = () => {
               </div>
             </div>
             <div className='box flex_space'>
-              <div className='icon'>
+              <div className='icons'>
                 <i class='far fa-envelope'></i>
               </div>
               <div className='text'>

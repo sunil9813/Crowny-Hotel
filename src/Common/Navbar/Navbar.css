@@ -54,7 +54,14 @@ nav i {
   margin-left: 20px;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 768px) {
+  .login-area {
+    position: absolute;
+    right: 20px;
+  }
+  .navbar {
+    text-align: center;
+  }
   nav ul {
     display: block;
     width: 100%;
@@ -69,18 +76,21 @@ nav i {
     display: block;
   }
   nav ul.active {
-    background: #242222;
+    background: #31b675;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
-    z-index: 1;
+    z-index: 100;
   }
-
+  nav ul li a {
+    font-weight: 400;
+    opacity: 1;
+  }
   .menu-icon {
     display: block;
     position: absolute;
     top: 0;
-    left: 0;
+    left: 20px;
     font-size: 1.8rem;
     cursor: pointer;
   }
@@ -114,3 +124,24 @@ header h4 {
 }
 
 /*--------header------------*/
+@media screen and (max-width: 768px) {
+  /*--------header--------*/
+  header .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  header .contact {
+    justify-content: center;
+    align-items: center;
+  }
+  header a {
+    font-size: 13px;
+  }
+  header i {
+    font-size: 30px;
+    margin-right: 5px;
+    margin-top: 10px;
+  }
+  /*--------header--------*/
+}

@@ -111,3 +111,11 @@
   color: white;
 }
 /*----- control btn -------*/
+@media screen and (max-width: 768px) {
+  .popular .control-btn .prev {
+    left: 40%;
+  }
+  .popular .control-btn .next {
+    right: 42%;
+  }
+}
